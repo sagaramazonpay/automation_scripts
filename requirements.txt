@@ -13,3 +13,4 @@ webdriver_manager
 gitpython
 jinja2
 lxml
+style
