@@ -14,3 +14,4 @@ gitpython
 jinja2
 lxml
 style
+pkg_resources
