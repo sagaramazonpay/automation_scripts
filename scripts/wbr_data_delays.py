@@ -1627,9 +1627,9 @@ mail.HTMLBody += f"<b><br>Thanks,<br>{mailname}</b>"
 mail.Subject = 'Delayed Tables WBR Report Sheet - Platform Team'
 # mail.Body = 'Hi,'+'\n\n'+'Please find the updated sheet for data monitoring job.'+'\n\n'+'Thank you'
 login = os.getlogin()
-attachment  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\downstream_"+str(filedate)+"report.xlsx"
-att2 = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\upstream_"+str(filedate)+"report.xlsx"
-att3 = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\AllP0_NonP0_Delays.xlsx"
+attachment  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\downstream_"+str(filedate)+"report.xlsx"
+att2 = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\upstream_"+str(filedate)+"report.xlsx"
+att3 = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\AllP0_NonP0_Delays.xlsx"
 mail.Attachments.Add(attachment)
 mail.Attachments.Add(att2)
 mail.Attachments.Add(att3)
