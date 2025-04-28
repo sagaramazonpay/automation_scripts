@@ -1246,9 +1246,9 @@ while True:
                     #mail.Subject = 'Data Monitoring Sheet - Platform Team'
                     mail.Subject = 'Force Success!(' + run + ' run): Data Monitoring Sheet for P0 Tables - Platform Team'
                     login = os.getlogin()
-                    attachment1  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"All_force_success_jobs.xlsx"
-                    attachment2  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"forcedsuccessjobs.xlsx"
-                    attachment3  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"exception_in_force_success.xlsx"
+                    attachment1  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"All_force_success_jobs.xlsx"
+                    attachment2  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"forcedsuccessjobs.xlsx"
+                    attachment3  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"exception_in_force_success.xlsx"
                     mail.Attachments.Add(attachment1)
                     mail.Attachments.Add(attachment2)
                     mail.Attachments.Add(attachment3)
@@ -1285,7 +1285,7 @@ while True:
                         #mail.Subject = 'Data Monitoring Sheet - Platform Team'
                         mail.Subject = 'Force Success!(' + run + ' run): Data Monitoring Sheet for P0 Tables - Platform Team'
                         login = os.getlogin()
-                        attachment1  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"All_force_success_jobs.xlsx"
+                        attachment1  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"All_force_success_jobs.xlsx"
                         mail.Attachments.Add(attachment1)
                         mail.Send()
                         print('mail gaya')
@@ -1713,9 +1713,9 @@ while True:
                 #mail.Subject = 'Data Monitoring Sheet - Platform Team'
                 mail.Subject = 'Errored!(' + run + ' run): Data Monitoring Sheet for P0 Tables - Platform Team'
                 login = os.getlogin()
-                attachment1  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"All_error_jobs.xlsx"
-                attachment2  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"restartedjobs.xlsx"
-                attachment3  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"exception_in_restart.xlsx"
+                attachment1  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"All_error_jobs.xlsx"
+                attachment2  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"restartedjobs.xlsx"
+                attachment3  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"exception_in_restart.xlsx"
                 mail.Attachments.Add(attachment1)
                 mail.Attachments.Add(attachment2)
                 mail.Attachments.Add(attachment3)
@@ -1755,7 +1755,7 @@ while True:
                     #mail.Subject = 'Data Monitoring Sheet - Platform Team'
                     mail.Subject = 'Errored!(' + run + ' run): Data Monitoring Sheet for P0 Tables - Platform Team'
                     login = os.getlogin()
-                    attachment1  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"All_error_jobs.xlsx"
+                    attachment1  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"All_error_jobs.xlsx"
                     mail.Attachments.Add(attachment1)
                     mail.Send()
                     print('mail gaya')
@@ -2191,10 +2191,10 @@ while True:
         #mail.Subject = 'Data Monitoring Sheet - Platform Team'
         mail.Subject = '(' + run + ' run): Data Monitoring Sheet for P0 Tables - Platform Team'
         login = os.getlogin()
-        attachment1  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"P0jobs_Delayed_Tables_"+str(filedate)+"_"+str(run)+"Run.xlsx"
-        attachment2  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"P0jobs_T-1_"+str(filedate)+"_"+str(run)+"Run.xlsx"
-        attachment3  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"Success_T-1_P0jobs_"+str(filedate)+"_"+str(run)+"Run.xlsx"
-        attachment4  = "C:\\Users\\"+login+"\\Downloads\\dn_proj_reg\\"+"SLA12_P0jobs_"+str(filedate)+"_"+str(run)+"Run.xlsx"
+        attachment1  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"P0jobs_Delayed_Tables_"+str(filedate)+"_"+str(run)+"Run.xlsx"
+        attachment2  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"P0jobs_T-1_"+str(filedate)+"_"+str(run)+"Run.xlsx"
+        attachment3  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"Success_T-1_P0jobs_"+str(filedate)+"_"+str(run)+"Run.xlsx"
+        attachment4  = "C:\\Users\\"+login+"\\Downloads\\automation_workspace\\"+"SLA12_P0jobs_"+str(filedate)+"_"+str(run)+"Run.xlsx"
         mail.Attachments.Add(attachment1)
         mail.Attachments.Add(attachment2)
         mail.Attachments.Add(attachment3)
