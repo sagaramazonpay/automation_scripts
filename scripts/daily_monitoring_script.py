@@ -2220,5 +2220,5 @@ while True:
     with open(count_file_name, "w") as count_file:
         count_file.write(str(run_count))
     # Sleep for 3 hours
-    time.sleep(3 * 60 * 60)  # Sleep for 3 hours
+    time.sleep(1 * 60 * 60)  # Sleep for 3 hours
 ctypes.windll.kernel32.SetThreadExecutionState(0x80000000)
